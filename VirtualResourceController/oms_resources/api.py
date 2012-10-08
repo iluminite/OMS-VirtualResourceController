@@ -1,8 +1,14 @@
 from tastypie.resources import ModelResource
-from VirtualResourceController.oms_resources.models import Instance
+from VirtualResourceController.oms_resources.models import OMSInstance, OMSHost
 
 
-class InstanceResource(ModelResource):
+class OMSHostResource(ModelResource):
     class Meta:
-        queryset = Instance.objects.all()
-        resource_name = 'seed'
+        queryset = OMSHost.objects.all()
+        resource_name = 'host'
+
+
+class OMSInstanceResource(ModelResource):
+    class Meta:
+        queryset = OMSInstance.objects.all()
+        resource_name = 'instance'

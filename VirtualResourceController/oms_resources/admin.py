@@ -1,7 +1,11 @@
 from django.contrib import admin
-from VirtualResourceController.oms_resources.models import Instance
+from VirtualResourceController.oms_resources.models import OMSInstance, OMSHost
 
-class InstanceAdmin(admin.ModelAdmin):
+class OMSHostAdmin(admin.ModelAdmin):
     pass
 
-admin.site.register(Instance, InstanceAdmin)
+class OMSInstanceAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(OMSHost, OMSHostAdmin)
+admin.site.register(OMSInstance, OMSInstanceAdmin)
