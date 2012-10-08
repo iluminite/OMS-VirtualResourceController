@@ -5,4 +5,4 @@ threads = 40
 master = 1
 env = DJANGO_SETTINGS_MODULE=settings.{{ app_env }}
 module = django.core.handlers.wsgi:WSGIHandler()
-chdir = {{ instance_root }}/{{ repo_name }}/CloudAppExchange
+hdir = {{ instance_root }}/{{ repo_name }}/VirtualResourceController

@@ -1,4 +1,4 @@
-Cloud App Exchange Server README
-================================
+Virtual Resource Controller README
+==================================
 
-basic django project which defines the trustframework app manifest and serves up instances through tastypie-defined REST APIs.
+basic django project which (currently) only defines the Host and Instance models and resources for management through django and tastypie-defined REST APIs.

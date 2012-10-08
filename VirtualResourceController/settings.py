@@ -1,4 +1,4 @@
-# Django settings for CloudAppExchange project.
+# Django settings for VirtualResourceController project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -97,10 +97,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'CloudAppExchange.urls'
+ROOT_URLCONF = 'VirtualResourceController.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'CloudAppExchange.wsgi.application'
+WSGI_APPLICATION = 'VirtualResourceController.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -117,7 +117,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'CloudAppExchange.manifest',
+    'VirtualResourceController.oms_resources',
 )
 
 # A sample logging configuration. The only tangible logging

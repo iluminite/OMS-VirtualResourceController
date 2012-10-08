@@ -1,9 +1,9 @@
 from django.db import models
 
 
-class MustardSeedManifest(models.Model):
+class Instance(models.Model):
     '''
-    The Mustard Seed at the heart of it all!
+    XXX - An instance of an app deployment - describe in more detail!
     '''
     name = models.CharField(max_length=100)
     desc = models.TextField()
